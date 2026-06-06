@@ -44,7 +44,7 @@ async function startServer() {
       let text = '';
       let apiError: any = null;
 
-      const isApiKey = apiKey.trim().startsWith('AIza');
+      const isApiKey = apiKey.trim().startsWith('AIza') || apiKey.trim().startsWith('AQ.');
 
       for (const model of modelsToTry) {
         try {
