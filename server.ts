@@ -40,7 +40,7 @@ async function startServer() {
       }
 
       // Try standard reliable models as fallback options
-      const modelsToTry = ['gemini-2.5-flash', 'gemini-2.0-flash', 'gemini-1.5-flash'];
+      const modelsToTry = ['gemini-3.5-flash', 'gemini-2.5-flash'];
       let text = '';
       let apiError: any = null;
 
