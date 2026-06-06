@@ -47,8 +47,8 @@ export default async function handler(req: any, res: any) {
       });
     }
 
-    // Try a list of standard reliable models as fallback options to guarantee successful generation
-    const modelsToTry = ['gemini-3.5-flash', 'gemini-2.5-flash'];
+    // Try standard reliable models directly to guarantee successful generation
+    const modelsToTry = ['gemini-2.5-flash', 'gemini-1.5-flash'];
     let text = '';
     let apiError: any = null;
 
