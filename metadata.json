@@ -1,0 +1,6 @@
+{
+  "name": "AI Interview Coach",
+  "description": "Adaptive, realistic 5-stage technical interview simulator featuring real-time professional grading and feedback.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
